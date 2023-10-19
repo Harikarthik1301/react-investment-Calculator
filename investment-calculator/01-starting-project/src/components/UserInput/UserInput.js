@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 const UserInput = (props) => {
     const initialinput = {
-        "current-savings": 10000,
-        "yearly-contribution": 1200,
-        "expected-return": 12,
-        duration: 10,
+        "current-savings": '',
+        "yearly-contribution": '',
+        "expected-return": '',
+        duration: '',
       }
       const [userInput, setUserInput] = useState(initialinput);
 
