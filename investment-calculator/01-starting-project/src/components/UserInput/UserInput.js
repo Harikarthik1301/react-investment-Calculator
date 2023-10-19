@@ -83,7 +83,7 @@ props.onCalculate(userInput);
         <button onClick={ResetHandler} type="reset" className="buttonAlt">
           Reset
         </button>
-        <button type="submit" className="button">
+        <button type="submit"  className="button">
           Calculate
         </button>
       </p>
